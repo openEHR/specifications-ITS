@@ -55,8 +55,8 @@ h|Specification h|Description
 |link:/releases/ITS-REST/{its_release}/docs/definitions.html[openEHR REST Definitions API]
 |This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with the openEHR definitions API in a RESTful manner. Definitions includes Archetypes, Templates and Operational Templates (OPTs).
 
-|https://github.com/openEHR/specifications-ITS-REST/tree/master/REST_API[REST API .apib files]
-|Apiary files.
+|https://github.com/openEHR/specifications-ITS-REST/tree/master/src[REST API .apib files]
+|API Blueprint files.
 
 
 2+^|XML Schemas (XSDs)
