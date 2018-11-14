@@ -46,34 +46,34 @@ h|Specification h|Description
 
 2+^|REST APIs
 
-|link:/releases/ITS/{its_release}/docs/ehr.html[openEHR REST EHR API]
+|link:/releases/ITS-REST/{its_release}/docs/ehr.html[openEHR REST EHR API]
 |This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with an openEHR EHR API in a RESTful manner.
 
-|link:/releases/ITS/{its_release}/docs/query.html[openEHR REST Query API]
+|link:/releases/ITS-REST/{its_release}/docs/query.html[openEHR REST Query API]
 |This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with an openEHR query API in a RESTful manner.
 
-|link:/releases/ITS/{its_release}/docs/definitions.html[openEHR REST Definitions API]
+|link:/releases/ITS-REST/{its_release}/docs/definitions.html[openEHR REST Definitions API]
 |This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with the openEHR definitions API in a RESTful manner. Definitions includes Archetypes, Templates and Operational Templates (OPTs).
 
-|https://github.com/openEHR/specifications-ITS/tree/master/REST_API[REST API .apib files]
+|https://github.com/openEHR/specifications-ITS-REST/tree/master/REST_API[REST API .apib files]
 |Apiary files.
 
 
 2+^|XML Schemas (XSDs)
 
-|link:/releases/trunk/its/XML-schema[Reference Model XSDs]
+|link:/releases/ITS-XML/RM/{its_xml_release}[Reference Model XSDs]
 |XML schema 1.0 expression of the Reference Model.
 
-|link:/releases/trunk/its/XML-schema[Archetype Model 1.4 XSDs]
+|link:/releases/ITS-XML/AM/AOM1.4/{its_xml_release}[Archetype Model 1.4 XSDs]
 |XML schema 1.0 expression of ADL/AOM 1.4.
 
-|https://github.com/openEHR/java-libs/tree/master/oet-parser/src/main/xsd[Templating (OET based)]
+|https:/releases/ITS-XML/AM/TOM/{its_xml_release}[Templating (OET based)]
 |Simple XML format for templates.
 
 |https://github.com/openEHR/java-libs/tree/master/oet-parser[Java OET parser]
 |Simple OET file parser in Java
 
-|https://github.com/openEHR/specifications/tree/master/ITS/AOM2/XML-schema[Archetype Model 2.x XSD]
+|https:/releases/ITS-XML/AM/AOM2/{its_xml_release}[Archetype Model 2.x XSD]
 |XML schema 1.1 expression of ADL/AOM 2.
 
 		
