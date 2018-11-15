@@ -73,19 +73,26 @@ h|Specification h|Description
 |link:/releases/ITS-XML/AM/AOM1.4/{its_xml_release}[Archetype Model 1.4 XSDs]
 |XML schema 1.0 expression of ADL/AOM 1.4.
 
-|https:/releases/ITS-XML/AM/TOM/{its_xml_release}[Templating (OET based)]
+|link:/releases/ITS-XML/AM/TOM/{its_xml_release}[Templating (OET based)]
 |Simple XML format for templates.
 
-|https://github.com/openEHR/java-libs/tree/master/oet-parser[Java OET parser]
+|link://github.com/openEHR/java-libs/tree/master/oet-parser[Java OET parser]
 |Simple OET file parser in Java
 
-|https:/releases/ITS-XML/AM/AOM2/{its_xml_release}[Archetype Model 2.x XSD]
+|link:/releases/ITS-XML/AM/AOM2/{its_xml_release}[Archetype Model 2.x XSD]
 |XML schema 1.1 expression of ADL/AOM 2.
 
 		
 2+^|Basic-Meta Model files (BMMs)
 
-|link:/releases/ITS-BMM/RM/{its_bmm_release}[Reference Model BMMs]
+|link:/releases/ITS-BMM/BASE/{its_bmm_release}[BASE Model BMMs]
+|BMM 2.x schema of the openEHR BASE component.
+
+|link:/releases/ITS-BMM/RM/{its_bmm_release}[Reference component BMMs]
 |BMM 2.x schema of the openEHR Reference Model.
+
+|link:/releases/ITS-BMM/PROC/{its_bmm_release}[PROC component BMMs]
+|BMM 2.x schema of the openEHR PROC component (Task Planning).
+
 
 |===
