@@ -1,0 +1,9 @@
+[submodule "JSON"]
+	path = JSON
+	url = https://github.com/openEHR/specifications-ITS-JSON
+[submodule "BMM"]
+	path = BMM
+	url = https://github.com/openEHR/specifications-ITS-BMM
+[submodule "XML"]
+	path = XML
+	url = https://github.com/openEHR/specifications-ITS-XML
