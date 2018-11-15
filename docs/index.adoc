@@ -85,4 +85,7 @@ h|Specification h|Description
 		
 2+^|Basic-Meta Model files (BMMs)
 
+|link:/releases/ITS-BMM/RM/{its_bmm_release}[Reference Model BMMs]
+|BMM 2.x schema of the openEHR Reference Model.
+
 |===
