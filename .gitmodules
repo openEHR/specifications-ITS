@@ -7,3 +7,6 @@
 [submodule "XML"]
 	path = XML
 	url = https://github.com/openEHR/specifications-ITS-XML
+[submodule "REST_API"]
+	path = REST_API
+	url = https://github.com/openEHR/specifications-ITS-REST.git
