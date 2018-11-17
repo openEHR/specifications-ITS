@@ -67,32 +67,44 @@ h|Specification h|Description
 
 2+^|XML Schemas (XSDs)
 
-|link:/releases/ITS-XML/RM/{its_xml_release}[Reference Model XSDs]
+|link:/releases/ITS-XML/{its_xml_release}/RM[Reference Model XSDs]
 |XML schema 1.0 expression of the Reference Model.
 
-|link:/releases/ITS-XML/AM/AOM1.4/{its_xml_release}[Archetype Model 1.4 XSDs]
+|link:/releases/ITS-XML/{its_xml_release}/AM/AOM1.4[Archetype Model 1.4 XSDs]
 |XML schema 1.0 expression of ADL/AOM 1.4.
 
-|link:/releases/ITS-XML/AM/TOM/{its_xml_release}[Templating (OET based)]
+|link:/releases/ITS-XML/{its_xml_release}/AM/TOM[Templating (OET based)]
 |Simple XML format for templates.
 
 |link://github.com/openEHR/java-libs/tree/master/oet-parser[Java OET parser]
 |Simple OET file parser in Java
 
-|link:/releases/ITS-XML/AM/AOM2/{its_xml_release}[Archetype Model 2.x XSD]
+|link:/releases/ITS-XML/{its_xml_release}/AM/AOM2[Archetype Model 2.x XSD]
 |XML schema 1.1 expression of ADL/AOM 2.
 
 		
 2+^|Basic-Meta Model files (BMMs)
 
-|link:/releases/ITS-BMM/BASE/{its_bmm_release}[BASE Model BMMs]
-|BMM 2.x schema of the openEHR BASE component.
+|link:/releases/ITS-BMM/{its_bmm_release}/components/BASE/Release-1.0.0[BASE Model 1.0.0 BMMs]
+|BMM 2.x schema of the openEHR BASE component Release-1.0.0.
 
-|link:/releases/ITS-BMM/RM/{its_bmm_release}[Reference component BMMs]
-|BMM 2.x schema of the openEHR Reference Model.
+|link:/releases/ITS-BMM/{its_bmm_release}/components/BASE/Release-1.1.0[BASE Model 1.1.0 BMMs]
+|BMM 2.x schema of the openEHR BASE component Release-1.1.0.
 
-|link:/releases/ITS-BMM/PROC/{its_bmm_release}[PROC component BMMs]
-|BMM 2.x schema of the openEHR PROC component (Task Planning).
+|link:/releases/ITS-BMM/{its_bmm_release}/components/LANG/Release-1.0.0[LANG 1.0.0 BMMs]
+|BMM 2.x schema of the openEHR LANG component models Release-1.0.0.
+
+|link:/releases/ITS-BMM/{its_bmm_release}/original/Release-1.0.2[RM 1.0.2 BMMs]
+|BMM 2.x schema of the openEHR Reference Model Release-1.0.2.
+
+|link:/releases/ITS-BMM/{its_bmm_release}/components/RM/Release-1.0.3[RM 1.0.3 BMMs]
+|BMM 2.x schema of the openEHR Reference Model Release-1.0.3.
+
+|link:/releases/ITS-BMM/{its_bmm_release}/components/RM/Release-1.0.4[RM 1.0.4 BMMs]
+|BMM 2.x schema of the openEHR Reference Model Release-1.0.4.
+
+|link:/releases/ITS-BMM/{its_bmm_release}/components/PROC/Release-1.0.0[PROC 1.0.0 BMMs]
+|BMM 2.x schema of the openEHR PROC compoment models Release-1.0.0.
 
 
 |===
