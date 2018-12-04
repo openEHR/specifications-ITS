@@ -10,8 +10,8 @@
 // HTML-only attributes
 //
 :linkcss:
-:keywords: REST API, openehr
-:description: openEHR REST APIs
+:keywords: openEHR, ITS, REST APIs, XSD, JSON-Schema, BMM
+:description: openEHR Implementation Technology Specifications (ITS)
 :sectanchors:
 :its_release: latest
 :rm_release: latest
@@ -54,38 +54,53 @@ h|Specification h|Description
 
 2+^|REST APIs
 
-|link:/releases/ITS-REST/{its_release}/docs/ehr.html[openEHR REST EHR API]
+|link:/releases/ITS-REST/{its_release}/docs/ehr.html[EHR API]
 |This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with an openEHR EHR API in a RESTful manner.
 
-|link:/releases/ITS-REST/{its_release}/docs/query.html[openEHR REST Query API]
+|link:/releases/ITS-REST/{its_release}/docs/query.html[Query API]
 |This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with an openEHR query API in a RESTful manner.
 
-|link:/releases/ITS-REST/{its_release}/docs/definitions.html[openEHR REST Definitions API]
+|link:/releases/ITS-REST/{its_release}/docs/definitions.html[Definitions API]
 |This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with the openEHR definitions API in a RESTful manner. Definitions includes Archetypes, Templates and Operational Templates (OPTs).
 
-|https://github.com/openEHR/specifications-ITS-REST/tree/master/src[REST API .apib files]
-|API Blueprint files.
+|https://github.com/openEHR/specifications-ITS-REST/tree/master/src[API .apib files]
+|API specification as Blueprint files.
 
 
-2+^|XML Schemas (XSDs)
+2+^|XML Schemas (XSDs) - {its_xml_release}
 
-|link:/releases/ITS-XML/{its_xml_release}/RM[Reference Model XSDs]
-|XML schema 1.0 expression of the Reference Model.
+|link:/releases/ITS-XML/{its_xml_release}/BASE/latest[BASE draft XSDs]
+|XML schema 1.0 expression of the openEHR latest Base Models.
 
-|link:/releases/ITS-XML/{its_xml_release}/AM/AOM1.4[Archetype Model 1.4 XSDs]
-|XML schema 1.0 expression of ADL/AOM 1.4.
+|link:/releases/ITS-XML/{its_xml_release}/RM/Release-1.0.2[RM stable XSDs]
+|XML schema 1.0 expression of the openEHR Reference Model Release-1.0.2.
 
-|link:/releases/ITS-XML/{its_xml_release}/AM/TOM[Templating (OET based)]
-|Simple XML format for templates.
+|link:/releases/ITS-XML/{its_xml_release}/RM/latest[RM draft XSDs]
+|XML schema 1.0 expression of the openEHR latest Reference Model.
+
+|link:/releases/ITS-XML/{its_xml_release}/AM/Release-1.4[AM 1.4 XSDs]
+|XML schema 1.0 expression of the openEHR Archetype Model (ADL/AOM) 1.4.
+
+|link:/releases/ITS-XML/{its_xml_release}/AM/OET[Templating]
+|Simple XML format for templates (OET based).
+
+|link:/releases/ITS-XML/{its_xml_release}/AM/latest[AM 2.x XSD]
+|XML schema 1.1 expression the openEHR Archetype Model (ADL/AOM) 2.
+
+|link:/releases/ITS-XML/{its_xml_release}/QUERY/latest[QUERY draft XSDs]
+|XML schema 1.0 expression of the openEHR latest AQL Result_set model.
+
+|https://github.com/openEHR/specifications-ITS-XML[all XSDs]
+|openEHR XSDs on Github.
+
+		
+2+^|Java
 
 |link://github.com/openEHR/java-libs/tree/master/oet-parser[Java OET parser]
 |Simple OET file parser in Java
 
-|link:/releases/ITS-XML/{its_xml_release}/AM/AOM2[Archetype Model 2.x XSD]
-|XML schema 1.1 expression of ADL/AOM 2.
-
 		
-2+^|Basic-Meta Model files (BMMs)
+2+^|Basic-Meta Model files (BMMs) - {its_bmm_release}
 
 |link:/releases/ITS-BMM/{its_bmm_release}/components/BASE/Release-1.0.0[BASE Model 1.0.0 BMMs]
 |BMM 2.x schema of the openEHR BASE component Release-1.0.0.
@@ -106,7 +121,28 @@ h|Specification h|Description
 |BMM 2.x schema of the openEHR Reference Model Release-1.0.4.
 
 |link:/releases/ITS-BMM/{its_bmm_release}/components/PROC/Release-1.0.0[PROC 1.0.0 BMMs]
-|BMM 2.x schema of the openEHR PROC compoment models Release-1.0.0.
+|BMM 2.x schema of the openEHR PROC component Release-1.0.0.
+
+|https://github.com/openEHR/specifications-ITS-BMM[all BMMs]
+|openEHR BMMs on Github.
+
+		
+2+^|JSON Schemas files - {its_json_release}
+
+|link:/releases/ITS-JSON/{its_json_release}/components/BASE/latest[BASE Model 1.1.0]
+|JSON Schemas of the openEHR BASE component Release-1.1.0.
+
+|link:/releases/ITS-JSON/{its_json_release}/components/AM/latest[AM 2.x]
+|JSON Schemas of the openEHR Archetype Model Release-2.x.
+
+|link:/releases/ITS-JSON/{its_json_release}/components/RM/latest[RM 1.0.4]
+|JSON Schemas of the openEHR Reference Model Release-1.0.4.
+
+|link:/releases/ITS-JSON/{its_json_release}/components/PROC/latest[PROC 1.0.0]
+|JSON Schemas of the openEHR PROC component Release-1.0.0.
+
+|https://github.com/openEHR/specifications-ITS-JSON[all schemas]
+|openEHR Json schemas on Github.
 
 
 |===
