@@ -5,8 +5,8 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.6.1">
-<meta name="description" content="openEHR REST APIs">
-<meta name="keywords" content="REST API, openehr">
+<meta name="description" content="openEHR Implementation Technology Specifications (ITS)">
+<meta name="keywords" content="openEHR, ITS, REST APIs, XSD, JSON-Schema, BMM">
 <title>Implementation Technology Specifications (ITS) - latest</title>
 <link rel="stylesheet" href="https://specifications.openehr.org/styles/openehr.css">
 </head>
@@ -53,46 +53,65 @@
 <td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock">REST APIs</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-REST/latest/docs/ehr.html">openEHR REST EHR API</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-REST/latest/docs/ehr.html">EHR API</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with an openEHR EHR API in a RESTful manner.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-REST/latest/docs/query.html">openEHR REST Query API</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-REST/latest/docs/query.html">Query API</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with an openEHR query API in a RESTful manner.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-REST/latest/docs/definitions.html">openEHR REST Definitions API</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-REST/latest/docs/definitions.html">Definitions API</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with the openEHR definitions API in a RESTful manner. Definitions includes Archetypes, Templates and Operational Templates (OPTs).</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/openEHR/specifications-ITS-REST/tree/master/src">REST API .apib files</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">API Blueprint files.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/openEHR/specifications-ITS-REST/tree/master/src">API .apib files</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">API specification as Blueprint files.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock">XML Schemas (XSDs)</p></td>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock">XML Schemas (XSDs) - latest</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-XML/latest/RM">Reference Model XSDs</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">XML schema 1.0 expression of the Reference Model.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-XML/latest/BASE/latest">BASE draft XSDs</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">XML schema 1.0 expression of the openEHR latest Base Models.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-XML/latest/AM/AOM1.4">Archetype Model 1.4 XSDs</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">XML schema 1.0 expression of ADL/AOM 1.4.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-XML/latest/RM/Release-1.0.2">RM stable XSDs</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">XML schema 1.0 expression of the openEHR Reference Model Release-1.0.2.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-XML/latest/AM/TOM">Templating (OET based)</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Simple XML format for templates.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-XML/latest/RM/latest">RM draft XSDs</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">XML schema 1.0 expression of the openEHR latest Reference Model.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-XML/latest/AM/Release-1.4">AM 1.4 XSDs</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">XML schema 1.0 expression of the openEHR Archetype Model (ADL/AOM) 1.4.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-XML/latest/AM/OET">Templating</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Simple XML format for templates (OET based).</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-XML/latest/AM/latest">AM 2.x XSD</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">XML schema 1.1 expression the openEHR Archetype Model (ADL/AOM) 2.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-XML/latest/QUERY/latest">QUERY draft XSDs</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">XML schema 1.0 expression of the openEHR latest AQL Result_set model.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/openEHR/specifications-ITS-XML">all XSDs</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">openEHR XSDs on Github.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock">Java</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="//github.com/openEHR/java-libs/tree/master/oet-parser">Java OET parser</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Simple OET file parser in Java</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-XML/latest/AM/AOM2">Archetype Model 2.x XSD</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">XML schema 1.1 expression of ADL/AOM 2.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock">Basic-Meta Model files (BMMs)</p></td>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock">Basic-Meta Model files (BMMs) - latest</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-BMM/latest/components/BASE/Release-1.0.0">BASE Model 1.0.0 BMMs</a></p></td>
@@ -120,7 +139,34 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-BMM/latest/components/PROC/Release-1.0.0">PROC 1.0.0 BMMs</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">BMM 2.x schema of the openEHR PROC compoment models Release-1.0.0.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BMM 2.x schema of the openEHR PROC component Release-1.0.0.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/openEHR/specifications-ITS-BMM">all BMMs</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">openEHR BMMs on Github.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock">JSON Schemas files - latest</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-JSON/latest/components/BASE/latest">BASE Model 1.1.0</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">JSON Schemas of the openEHR BASE component Release-1.1.0.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-JSON/latest/components/AM/latest">AM 2.x</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">JSON Schemas of the openEHR Archetype Model Release-2.x.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-JSON/latest/components/RM/latest">RM 1.0.4</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">JSON Schemas of the openEHR Reference Model Release-1.0.4.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="/releases/ITS-JSON/latest/components/PROC/latest">PROC 1.0.0</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">JSON Schemas of the openEHR PROC component Release-1.0.0.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/openEHR/specifications-ITS-JSON">all schemas</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">openEHR Json schemas on Github.</p></td>
 </tr>
 </tbody>
 </table>
@@ -129,7 +175,7 @@
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-11-19 21:43:57 GMT
+Last updated 2018-12-04 07:58:10 GMT
 </div>
 </div>
 </body>
