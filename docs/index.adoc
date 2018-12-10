@@ -13,11 +13,6 @@
 :keywords: openEHR, ITS, REST APIs, XSD, JSON-Schema, BMM
 :description: openEHR Implementation Technology Specifications (ITS)
 :sectanchors:
-:its_release: latest
-:rm_release: latest
-:base_release: latest
-:jira-roadmap: https://openehr.atlassian.net/projects/SPECITS?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=unreleased
-:jira-hist-issues: https://openehr.atlassian.net/projects/SPECITS?orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released
 
 include::{ref_dir}/docs/boilerplate/global_vars.adoc[]
 
@@ -33,17 +28,16 @@ image::openehr_block_diagram.svg["openEHR components",align="center",width="60%"
 
 // Use the following version for 'latest'
 ifeval::["{its_release}" == "latest"]
-:jira-issues: https://openehr.atlassian.net/projects/SPECITS/issues/SPECITS-1?filter=allopenissues
 [.title-para]
-{jira-roadmap}[Roadmap] | {jira-issues}[Current Issues] | {jira-hist-issues}[Change History]
+{component_prs}[Open Issues^] | {component_roadmap}[Roadmap^] | {component_history}[Previous Releases^] 
 endif::[]
 
 // Use the following version for a named release
 ifeval::["{its_release}" != "latest"]
-:jira-pr-release: https://openehr.atlassian.net/projects/SPECPR/versions/12510
-:jira-cr-release: https://openehr.atlassian.net/projects/SPECITS?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released
+:its_prs_fixed: {component_prs_fixed}{its_release}/issues
+:its_crs_done: {component_crs_done}{its_release}/changes
 [.title-para]
-{jira-pr-release}[Problems Fixed] | {jira-cr-release}[Changes Implemented] | {jira-roadmap}[Roadmap] | {jira-hist-issues}[Change History]
+{its_prs_fixed}[Issues Fixed^] | {its_crs_done}[Changes Implemented^] | {component_roadmap}[Roadmap^] | {component_history}[Change History^]
 endif::[]
 
 == Specifications
@@ -54,16 +48,16 @@ h|Specification h|Description
 
 2+^|REST APIs
 
-|link:/releases/ITS-REST/{its_release}/docs/ehr.html[EHR API]
+|link:/releases/ITS-REST/{its_release}/ehr.html[EHR API]
 |This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with an openEHR EHR API in a RESTful manner.
 
-|link:/releases/ITS-REST/{its_release}/docs/query.html[Query API]
+|link:/releases/ITS-REST/{its_release}/query.html[Query API]
 |This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with an openEHR query API in a RESTful manner.
 
-|link:/releases/ITS-REST/{its_release}/docs/definitions.html[Definitions API]
+|link:/releases/ITS-REST/{its_release}/definitions.html[Definitions API]
 |This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with the openEHR definitions API in a RESTful manner. Definitions includes Archetypes, Templates and Operational Templates (OPTs).
 
-|https://github.com/openEHR/specifications-ITS-REST/tree/master/src[API .apib files]
+|{openehr_git}/specifications-ITS-REST/tree/master/src[API .apib files]
 |API specification as Blueprint files.
 
 
@@ -90,16 +84,34 @@ h|Specification h|Description
 |link:/releases/ITS-XML/{its_xml_release}/QUERY/latest[QUERY draft XSDs]
 |XML schema 1.0 expression of the openEHR latest AQL Result_set model.
 
-|https://github.com/openEHR/specifications-ITS-XML[all XSDs]
+|{openehr_git}/specifications-ITS-XML[all XSDs]
 |openEHR XSDs on Github.
 
 		
 2+^|Java
 
-|link://github.com/openEHR/java-libs/tree/master/oet-parser[Java OET parser]
+|{openehr_git}/java-libs/tree/master/oet-parser[Java OET parser]
 |Simple OET file parser in Java
 
 		
+2+^|JSON Schemas files - {its_json_release}
+
+|link:/releases/ITS-JSON/{its_json_release}/components/BASE/latest[BASE Model 1.1.0]
+|JSON Schemas of the openEHR BASE component Release-1.1.0.
+
+|link:/releases/ITS-JSON/{its_json_release}/components/AM/latest[AM 2.x]
+|JSON Schemas of the openEHR Archetype Model Release-2.x.
+
+|link:/releases/ITS-JSON/{its_json_release}/components/RM/latest[RM 1.0.4]
+|JSON Schemas of the openEHR Reference Model Release-1.0.4.
+
+|link:/releases/ITS-JSON/{its_json_release}/components/PROC/latest[PROC 1.0.0]
+|JSON Schemas of the openEHR PROC component Release-1.0.0.
+
+|{openehr_git}/specifications-ITS-JSON[all schemas]
+|openEHR Json schemas on Github.
+
+
 2+^|Basic-Meta Model files (BMMs) - {its_bmm_release}
 
 |link:/releases/ITS-BMM/{its_bmm_release}/components/BASE/Release-1.0.0[BASE Model 1.0.0 BMMs]
@@ -123,26 +135,7 @@ h|Specification h|Description
 |link:/releases/ITS-BMM/{its_bmm_release}/components/PROC/Release-1.0.0[PROC 1.0.0 BMMs]
 |BMM 2.x schema of the openEHR PROC component Release-1.0.0.
 
-|https://github.com/openEHR/specifications-ITS-BMM[all BMMs]
+|{openehr_git}/specifications-ITS-BMM[all BMMs]
 |openEHR BMMs on Github.
-
-		
-2+^|JSON Schemas files - {its_json_release}
-
-|link:/releases/ITS-JSON/{its_json_release}/components/BASE/latest[BASE Model 1.1.0]
-|JSON Schemas of the openEHR BASE component Release-1.1.0.
-
-|link:/releases/ITS-JSON/{its_json_release}/components/AM/latest[AM 2.x]
-|JSON Schemas of the openEHR Archetype Model Release-2.x.
-
-|link:/releases/ITS-JSON/{its_json_release}/components/RM/latest[RM 1.0.4]
-|JSON Schemas of the openEHR Reference Model Release-1.0.4.
-
-|link:/releases/ITS-JSON/{its_json_release}/components/PROC/latest[PROC 1.0.0]
-|JSON Schemas of the openEHR PROC component Release-1.0.0.
-
-|https://github.com/openEHR/specifications-ITS-JSON[all schemas]
-|openEHR Json schemas on Github.
-
 
 |===
