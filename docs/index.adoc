@@ -61,28 +61,46 @@ h|Specification h|Description
 |API specification as Blueprint files.
 
 
+2+^|XML Schemas (XSDs) - Release 1.0.2
+
+|link:/releases/ITS-XML/Release-1.0.2/RM[RM stable XSDs]
+|Stable (original) XML schema of the openEHR Reference Model Release-1.0.2.
+
+|{openehr_git}/specifications-ITS-XML/tree/Release-1.0.2[all XSDs]
+|openEHR XSDs Release 1.0.2 on Github.
+
+
 2+^|XML Schemas (XSDs) - {its_xml_release}
 
-|link:/releases/ITS-XML/{its_xml_release}/components/BASE/latest[BASE draft XSDs]
-|XML schema 1.0 expression of the openEHR latest Base Models.
+|link:/releases/ITS-XML/{its_xml_release}/components/BASE/Release-1.0.2[BASE 1.0.2]
+|XML schema 1.0 of the openEHR Base Models Release-1.0.2.
 
-|link:/releases/ITS-XML/{its_xml_release}/components/RM/Release-1.0.2[RM stable XSDs]
-|XML schema 1.0 expression of the openEHR Reference Model Release-1.0.2.
+|link:/releases/ITS-XML/{its_xml_release}/components/BASE/latest[BASE latest]
+|XML schema 1.0 of the openEHR latest Base Models (draft Release-1.1.0).
 
-|link:/releases/ITS-XML/{its_xml_release}/components/RM/latest[RM draft XSDs]
-|XML schema 1.0 expression of the openEHR latest Reference Model.
+|link:/releases/ITS-XML/{its_xml_release}/components/RM/Release-1.0.2[RM 1.0.2]
+|XML schema 1.0 of the openEHR Reference Model Release-1.0.2.
 
-|link:/releases/ITS-XML/{its_xml_release}/components/AM/Release-1.4[AM 1.4 XSDs]
-|XML schema 1.0 expression of the openEHR Archetype Model (ADL/AOM) 1.4.
+|link:/releases/ITS-XML/{its_xml_release}/components/RM/Release-1.0.3[RM 1.0.3]
+|XML schema 1.0 of the openEHR Reference Model Release-1.0.3.
+
+|link:/releases/ITS-XML/{its_xml_release}/components/RM/Release-1.0.4[RM 1.0.4]
+|XML schema 1.0 of the openEHR Reference Model Release-1.0.4.
+
+|link:/releases/ITS-XML/{its_xml_release}/components/RM/latest[RM latest]
+|XML schema 1.0 of the openEHR latest Reference Model.
+
+|link:/releases/ITS-XML/{its_xml_release}/components/AM/Release-1.4[AM 1.4]
+|XML schema 1.0 of the openEHR Archetype Model (ADL/AOM) 1.4.
 
 |link:/releases/ITS-XML/{its_xml_release}/components/AM/OET[Templating]
 |Simple XML format for templates (OET based).
 
-|link:/releases/ITS-XML/{its_xml_release}/components/AM/latest[AM 2.x XSD]
-|XML schema 1.1 expression the openEHR Archetype Model (ADL/AOM) 2.
+|link:/releases/ITS-XML/{its_xml_release}/components/AM/latest[AM 2.x]
+|XML schema 1.1 the openEHR Archetype Model (ADL/AOM) 2.0.6 (latest).
 
-|link:/releases/ITS-XML/{its_xml_release}/components/QUERY/latest[QUERY draft XSDs]
-|XML schema 1.0 expression of the openEHR latest AQL Result_set model.
+|link:/releases/ITS-XML/{its_xml_release}/components/QUERY/latest[QUERY draft]
+|XML schema 1.0 of the openEHR latest AQL Result_set model.
 
 |{openehr_git}/specifications-ITS-XML[all XSDs]
 |openEHR XSDs on Github.
@@ -96,8 +114,8 @@ h|Specification h|Description
 		
 2+^|JSON Schemas files - {its_json_release}
 
-|link:/releases/ITS-JSON/{its_json_release}/components/BASE/latest[BASE Model 1.1.0]
-|JSON Schemas of the openEHR BASE component Release-1.1.0.
+|link:/releases/ITS-JSON/{its_json_release}/components/BASE/latest[BASE latest]
+|JSON Schemas of the openEHR latest Base Models (draft Release-1.1.0).
 
 |link:/releases/ITS-JSON/{its_json_release}/components/AM/latest[AM 2.x]
 |JSON Schemas of the openEHR Archetype Model Release-2.x.
