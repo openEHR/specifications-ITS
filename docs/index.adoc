@@ -114,17 +114,20 @@ h|Specification h|Description
 		
 2+^|JSON Schemas files - {its_json_release}
 
-|link:/releases/ITS-JSON/{its_json_release}/components/BASE/latest[BASE latest]
-|JSON Schemas of the openEHR latest Base Models (draft Release-1.1.0).
+|link:/releases/ITS-JSON/{its_json_release}/components/BASE/Release-1.1.0[BASE 1.1.0]
+|JSON Schemas of the openEHR Base Models Release-1.1.0.
 
-|link:/releases/ITS-JSON/{its_json_release}/components/AM/latest[AM 2.x]
-|JSON Schemas of the openEHR Archetype Model Release-2.x.
+|link:/releases/ITS-JSON/{its_json_release}/components/AM/Release-1.4[AM 1.4]
+|JSON Schemas of the openEHR Archetype Model Release-1.4.
 
-|link:/releases/ITS-JSON/{its_json_release}/components/RM/latest[RM 1.0.4]
+|link:/releases/ITS-JSON/{its_json_release}/components/AM/Release-2.0.6[AM 2.0.6]
+|JSON Schemas of the openEHR Archetype Model Release-2.0.6.
+
+|link:/releases/ITS-JSON/{its_json_release}/components/RM/Release-1.0.4[RM 1.0.4]
 |JSON Schemas of the openEHR Reference Model Release-1.0.4.
 
-|link:/releases/ITS-JSON/{its_json_release}/components/PROC/latest[PROC 1.0.0]
-|JSON Schemas of the openEHR PROC component Release-1.0.0.
+|link:/releases/ITS-JSON/{its_json_release}/components/PROC/latest[PROC latest]
+|JSON Schemas of the openEHR latest PROC component.
 
 |{openehr_git}/specifications-ITS-JSON[all schemas]
 |openEHR Json schemas on Github.
