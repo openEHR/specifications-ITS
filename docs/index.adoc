@@ -11,7 +11,7 @@
 //
 :linkcss:
 :keywords: openEHR, ITS, REST APIs, XSD, JSON-Schema, BMM
-:description: openEHR Implementation Technology Specifications (ITS)
+:description: openEHR Implementation Technology Specifications Component (ITS)
 :sectanchors:
 
 include::{ref_dir}/docs/boilerplate/global_vars.adoc[]
@@ -24,7 +24,7 @@ image::{openehr_logo}["openEHR logo",align="center"]
 
 image::openehr_block_diagram.svg["openEHR components",align="center",width="60%"]
 
-= Implementation Technology Specifications (ITS) - {its_release}
+= Implementation Technology Specifications Component (ITS) - {its_release}
 
 // Use the following version for 'latest'
 ifeval::["{its_release}" == "latest"]
@@ -59,6 +59,12 @@ h|Specification h|Description
 
 |{openehr_git}/specifications-ITS-REST/tree/master/src[API .apib files]
 |API specification as Blueprint files.
+
+
+2+^|JSON Data Template (JDT)
+
+|link:/releases/ITS-REST/{its_release}/json_data_template.html[JDT]
+|JSON Data Template specification - a simplified data representation for committing data to the openEHR EHR.
 
 
 2+^|XML Schemas (XSDs) - Release 1.0.2
