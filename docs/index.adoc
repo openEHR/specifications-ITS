@@ -61,10 +61,10 @@ h|Specification h|Description
 |API specification as Blueprint files.
 
 
-2+^|JSON Data Template (JDT)
+2+^|Simplified Data Template (SDT)
 
 |link:/releases/ITS-REST/{its_release}/json_data_template.html[JDT]
-|JSON Data Template specification - a simplified data representation for committing data to the openEHR EHR.
+|Simplified Data Template specification - a simplified data representation for committing data to the openEHR EHR.
 
 
 2+^|XML Schemas (XSDs) - Release 1.0.2
@@ -118,7 +118,7 @@ h|Specification h|Description
 |Simple OET file parser in Java
 
 		
-2+^|JSON Schemas files - {its_json_release}
+2+^|JSON Schema files - {its_json_release}
 
 |link:/releases/ITS-JSON/{its_json_release}/components/BASE/Release-1.1.0[BASE 1.1.0]
 |JSON Schemas of the openEHR Base Models Release-1.1.0.
