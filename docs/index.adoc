@@ -46,16 +46,19 @@ endif::[]
 |===
 h|Specification h|Description
 
-2+^|REST APIs
+2+^|REST APIs - {its_release}
+
+|link:/releases/ITS-REST/{its_release}/index.html[API Overview]
+|An overview of various aspects of openEHR APIs.
 
 |link:/releases/ITS-REST/{its_release}/ehr.html[EHR API]
 |This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with an openEHR EHR API in a RESTful manner.
 
 |link:/releases/ITS-REST/{its_release}/query.html[Query API]
-|This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with an openEHR query API in a RESTful manner.
+|This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with an openEHR Query API in a RESTful manner.
 
 |link:/releases/ITS-REST/{its_release}/definitions.html[Definitions API]
-|This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with the openEHR definitions API in a RESTful manner. Definitions includes Archetypes, Templates and Operational Templates (OPTs).
+|This specification describes service endpoints, resources, functions and operations as well as details of requests and responses that interacts with the openEHR Definitions API in a RESTful manner. Definitions includes Archetypes, Templates and Operational Templates (OPTs).
 
 |{openehr_git}/specifications-ITS-REST/tree/master/src[API .apib files]
 |API specification as Blueprint files.
@@ -63,7 +66,7 @@ h|Specification h|Description
 
 2+^|Simplified Data Template (SDT)
 
-|link:/releases/ITS-REST/{its_release}/json_data_template.html[JDT]
+|link:/releases/ITS-REST/{its_release}/simplified_data_template.html[SDT]
 |Simplified Data Template specification - a simplified data representation for committing data to the openEHR EHR.
 
 
