@@ -1,0 +1,106 @@
+{
+    "id": "ITS",
+    "title": "Implementation Technology Specifications",
+    "description": "openEHR Implementation Technology Specifications Component (ITS)",
+    "keywords": "openEHR, ITS, REST APIs, XSD, JSON-Schema, BMM",
+    "specifications": [
+        {
+            "id": "ITS-REST",
+            "title": "openEHR REST API specifications",
+            "title_short": "REST APIs",
+            "description": "openEHR REST API specifications",
+            "summary": "REST API specifications - a simplified data representation for committing data to the openEHR EHR.",
+            "micro_summary": "openEHR REST API specifications",
+            "link": "releases/ITS-REST/latest",
+            "copyright_year": "2017",
+            "spec_status": "TRIAL",
+            "keywords": "api, rest apis, rest, restful, json, xml"
+        },
+        {
+            "id": "simplified_data_template",
+            "title": "Simplified Data Template (SDT)",
+            "title_short": "SDT",
+            "description": "openEHR Simplified Data Template (SDT)",
+            "summary": "Simplified Data Template specification - a simplified data representation for committing data to the openEHR EHR.",
+            "micro_summary": "Simplified Data Template",
+            "link": "releases/ITS-REST/latest/simplified_data_template.html",
+            "copyright_year": "2019",
+            "spec_status": "DEVELOPMENT",
+            "keywords": "json, template, rest, commit, data"
+        },
+        {
+            "id": "ITS-XML",
+            "title": "XML Schemas (XSDs)",
+            "title_short": "XSDs",
+            "description": "openEHR XML Schemas (XSDs)",
+            "summary": "openEHR XML Schemas (XSDs)",
+            "micro_summary": "XML Schemas for the openEHR RM and AM",
+            "link": "https://github.com/openEHR/specifications-ITS-XML",
+            "copyright_year": "2008",
+            "spec_status": "STABLE",
+            "keywords": "xml schema, xsd, schema, its, openehr"
+        },
+        {
+            "id": "ITS-JSON",
+            "title": "JSON Schemas",
+            "title_short": "JSON Schema",
+            "description": "openEHR JSON Schemas",
+            "summary": "openEHR JSON Schemas",
+            "micro_summary": "JSON Schemas",
+            "link": "https://github.com/openEHR/specifications-ITS-JSON",
+            "copyright_year": "2019",
+            "spec_status": "DEVELOPMENT",
+            "keywords": "json schema, json, schema, its, openehr"
+        },
+        {
+            "id": "ITS-BMM",
+            "title": "BMM Schemas",
+            "title_short": "BMMs",
+            "description": "openEHR BMM Schemas",
+            "summary": "BMM schemas for use with openEHR systems and tools",
+            "micro_summary": "BMM schemas for Task Planning, RM, Expressions, BASE",
+            "link": "https://github.com/openEHR/specifications-ITS-BMM",
+            "copyright_year": "2017",
+            "spec_status": "DEVELOPMENT",
+            "keywords": "bmm, schema, its, openehr"
+        }
+    ],
+    "expression": [
+        {
+            "id": "REST-API",
+            "type": "url",
+            "title": ".apib files",
+            "description": "REST API specifications as Blueprint (.apib) files.",
+            "link": "https://github.com/openEHR/specifications-ITS-REST/tree/master/src"
+        },
+        {
+            "id": "ITS-XML-1.0.2",
+            "type": "url",
+            "title": "all stable XSDs",
+            "description": "openEHR XSDs Release 1.0.2 on Github.",
+            "link": "https://github.com/openEHR/specifications-ITS-XML/releases/tag/Release-1.0.2"
+        }
+    ],
+    "jira": {
+        "open_issues": "11118",
+        "roadmap": "SPECITS"
+    },
+    "releases": [
+        {
+            "id": "1.1.0",
+            "date": "",
+            "jira": {
+                "crs": "SPECITS/versions/11063",
+                "prs": "SPECPR/versions/11080"
+            }
+        },
+        {
+            "id": "1.0.2",
+            "date": "2018-12-31",
+            "jira": {
+                "crs": "SPECITS/versions/11062",
+                "prs": "SPECPR/versions/11078"
+            }
+        }
+    ]
+}
