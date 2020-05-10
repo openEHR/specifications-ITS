@@ -65,7 +65,7 @@
             "keywords": "bmm, schema, its, openehr"
         }
     ],
-    "expression": [
+    "expressions": [
         {
             "id": "REST-API",
             "type": "url",
