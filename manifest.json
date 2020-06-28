@@ -11,7 +11,7 @@
             "description": "openEHR REST API specifications",
             "summary": "REST API specifications - a simplified data representation for committing data to the openEHR EHR.",
             "micro_summary": "openEHR REST API specifications",
-            "link": "releases/ITS-REST/latest",
+            "link": "/releases/ITS-REST/latest",
             "copyright_year": "2017",
             "spec_status": "TRIAL",
             "keywords": "api, rest apis, rest, restful, json, xml"
@@ -23,7 +23,7 @@
             "description": "openEHR Simplified Data Template (SDT)",
             "summary": "Simplified Data Template specification - a simplified data representation for committing data to the openEHR EHR.",
             "micro_summary": "Simplified Data Template",
-            "link": "releases/ITS-REST/latest/simplified_data_template.html",
+            "link": "/releases/ITS-REST/latest/simplified_data_template.html",
             "copyright_year": "2019",
             "spec_status": "DEVELOPMENT",
             "keywords": "json, template, rest, commit, data"
@@ -67,18 +67,25 @@
     ],
     "expressions": [
         {
-            "id": "REST-API",
-            "type": "url",
-            "title": ".apib files",
-            "description": "REST API specifications as Blueprint (.apib) files.",
-            "link": "https://github.com/openEHR/specifications-ITS-REST/tree/master/src"
+            "id": "REST API src",
+            "dependency": {
+                "component": "ITS-REST",
+                "release": "latest"
+            }
         },
         {
             "id": "ITS-XML-1.0.2",
+            "dependency": {
+                "component": "ITS-XML",
+                "release": "1.0.2"
+            }
+        },
+        {
+            "id": "Java OET parser",
             "type": "url",
-            "title": "all stable XSDs",
-            "description": "openEHR XSDs Release 1.0.2 on Github.",
-            "link": "https://github.com/openEHR/specifications-ITS-XML/releases/tag/Release-1.0.2"
+            "title": "Java OET parser",
+            "description": "Simple OET file parser in Java",
+            "link": "https://github.com/openEHR/java-libs/tree/master/oet-parser"
         }
     ],
     "jira": {
