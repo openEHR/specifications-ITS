@@ -35,19 +35,19 @@
             "description": "openEHR XML Schemas (XSDs)",
             "summary": "openEHR XML Schemas (XSDs)",
             "micro_summary": "XML Schemas for the openEHR RM and AM",
-            "link": "https://github.com/openEHR/specifications-ITS-XML",
+            "link": "/releases/ITS-XML/latest",
             "copyright_year": "2008",
             "spec_status": "STABLE",
-            "keywords": "xml schema, xsd, schema, its, openehr"
+            "keywords": "xml schema, xml, xsd, schema, its, openehr"
         },
         {
             "id": "ITS-JSON",
             "title": "JSON Schemas",
-            "title_short": "JSON Schema",
+            "title_short": "JSON Schemas",
             "description": "openEHR JSON Schemas",
             "summary": "openEHR JSON Schemas",
             "micro_summary": "JSON Schemas",
-            "link": "https://github.com/openEHR/specifications-ITS-JSON",
+            "link": "/releases/ITS-JSON/latest",
             "copyright_year": "2019",
             "spec_status": "DEVELOPMENT",
             "keywords": "json schema, json, schema, its, openehr"
@@ -59,7 +59,7 @@
             "description": "openEHR BMM Schemas",
             "summary": "BMM schemas for use with openEHR systems and tools",
             "micro_summary": "BMM schemas for Task Planning, RM, Expressions, BASE",
-            "link": "https://github.com/openEHR/specifications-ITS-BMM",
+            "link": "/releases/ITS-BMM/latest",
             "copyright_year": "2017",
             "spec_status": "DEVELOPMENT",
             "keywords": "bmm, schema, its, openehr"
@@ -74,7 +74,7 @@
             }
         },
         {
-            "id": "ITS-XML-1.0.2",
+            "id": "XSDs",
             "dependency": {
                 "component": "ITS-XML",
                 "release": "1.0.2"
