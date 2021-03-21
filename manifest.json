@@ -11,22 +11,10 @@
             "description": "openEHR REST API specifications",
             "summary": "REST API specifications - a simplified data representation for committing data to the openEHR EHR.",
             "micro_summary": "openEHR REST API specifications",
-            "link": "/releases/ITS-REST/latest",
+            "link": "/releases/ITS-REST/Release-1.0.0",
             "copyright_year": "2017",
             "spec_status": "TRIAL",
             "keywords": "api, rest apis, rest, restful, json, xml"
-        },
-        {
-            "id": "simplified_data_template",
-            "title": "Simplified Data Template (SDT)",
-            "title_short": "SDT",
-            "description": "openEHR Simplified Data Template (SDT)",
-            "summary": "Simplified Data Template specification - a simplified data representation for committing data to the openEHR EHR.",
-            "micro_summary": "Simplified Data Template",
-            "link": "/releases/ITS-REST/latest/simplified_data_template.html",
-            "copyright_year": "2019",
-            "spec_status": "DEVELOPMENT",
-            "keywords": "json, template, flat, rest, commit, data"
         },
         {
             "id": "ITS-XML",
@@ -35,34 +23,10 @@
             "description": "openEHR XML Schemas (XSDs)",
             "summary": "XML Schemas (XSDs) for the openEHR BASE, RM and AM",
             "micro_summary": "XML Schemas for the openEHR BASE, RM and AM",
-            "link": "/releases/ITS-XML/latest",
+            "link": "/releases/ITS-XML/Release-1.0.2",
             "copyright_year": "2008",
             "spec_status": "STABLE",
             "keywords": "xml schema, xml, xsd, schema, its, openehr"
-        },
-        {
-            "id": "ITS-JSON",
-            "title": "JSON Schemas",
-            "title_short": "JSON Schemas",
-            "description": "openEHR JSON Schemas",
-            "summary": "JSON Schemas for all openEHR components",
-            "micro_summary": "JSON Schemas for all openEHR components",
-            "link": "/releases/ITS-JSON/latest",
-            "copyright_year": "2019",
-            "spec_status": "DEVELOPMENT",
-            "keywords": "json schema, json, schema, its, openehr"
-        },
-        {
-            "id": "ITS-BMM",
-            "title": "BMM Schemas",
-            "title_short": "BMMs",
-            "description": "openEHR BMM Schemas",
-            "summary": "BMM schemas for use with openEHR systems and tools",
-            "micro_summary": "BMM schemas for Task Planning, RM, Expressions, BASE",
-            "link": "/releases/ITS-BMM/latest",
-            "copyright_year": "2017",
-            "spec_status": "DEVELOPMENT",
-            "keywords": "bmm, schema, its, openehr"
         }
     ],
     "expressions": [
@@ -70,7 +34,7 @@
             "id": "REST API src",
             "dependency": {
                 "component": "ITS-REST",
-                "release": "latest"
+                "release": "1.0.2"
             }
         },
         {
@@ -93,14 +57,6 @@
         "roadmap": "SPECITS"
     },
     "releases": [
-        {
-            "id": "1.1.0",
-            "date": "",
-            "jira": {
-                "crs": "SPECITS/versions/11063",
-                "prs": "SPECPR/versions/11080"
-            }
-        },
         {
             "id": "1.0.2",
             "date": "2018-12-31",
