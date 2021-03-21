@@ -2,7 +2,7 @@
     "id": "ITS",
     "title": "Implementation Technology Specifications",
     "description": "openEHR Implementation Technology Specifications Component (ITS)",
-    "keywords": "openEHR, ITS, REST APIs, XSD, JSON-Schema, BMM",
+    "keywords": "openEHR, ITS, REST APIs, XML, XSD, JSON-Schema, BMM",
     "specifications": [
         {
             "id": "ITS-REST",
@@ -26,15 +26,15 @@
             "link": "/releases/ITS-REST/latest/simplified_data_template.html",
             "copyright_year": "2019",
             "spec_status": "DEVELOPMENT",
-            "keywords": "json, template, rest, commit, data"
+            "keywords": "json, template, flat, rest, commit, data"
         },
         {
             "id": "ITS-XML",
             "title": "XML Schemas (XSDs)",
             "title_short": "XSDs",
             "description": "openEHR XML Schemas (XSDs)",
-            "summary": "openEHR XML Schemas (XSDs)",
-            "micro_summary": "XML Schemas for the openEHR RM and AM",
+            "summary": "XML Schemas (XSDs) for the openEHR BASE, RM and AM",
+            "micro_summary": "XML Schemas for the openEHR BASE, RM and AM",
             "link": "/releases/ITS-XML/latest",
             "copyright_year": "2008",
             "spec_status": "STABLE",
@@ -45,8 +45,8 @@
             "title": "JSON Schemas",
             "title_short": "JSON Schemas",
             "description": "openEHR JSON Schemas",
-            "summary": "openEHR JSON Schemas",
-            "micro_summary": "JSON Schemas",
+            "summary": "JSON Schemas for all openEHR components",
+            "micro_summary": "JSON Schemas for all openEHR components",
             "link": "/releases/ITS-JSON/latest",
             "copyright_year": "2019",
             "spec_status": "DEVELOPMENT",
