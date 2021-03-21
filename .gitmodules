@@ -1,12 +1,12 @@
-[submodule "JSON"]
-	path = JSON
-	url = https://github.com/openEHR/specifications-ITS-JSON
-[submodule "BMM"]
-	path = BMM
-	url = https://github.com/openEHR/specifications-ITS-BMM
+[submodule "REST"]
+	path = REST
+	url = https://github.com/openEHR/specifications-ITS-REST.git
 [submodule "XML"]
 	path = XML
-	url = https://github.com/openEHR/specifications-ITS-XML
-[submodule "REST_API"]
-	path = REST_API
-	url = https://github.com/openEHR/specifications-ITS-REST.git
+	url = https://github.com/openEHR/specifications-ITS-XML.git
+[submodule "JSON"]
+	path = JSON
+	url = https://github.com/openEHR/specifications-ITS-JSON.git
+[submodule "BMM"]
+	path = BMM
+	url = https://github.com/openEHR/specifications-ITS-BMM.git
