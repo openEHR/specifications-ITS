@@ -11,9 +11,9 @@
             "description": "openEHR REST API specifications",
             "summary": "REST API specifications - a simplified data representation for committing data to the openEHR EHR.",
             "micro_summary": "openEHR REST API specifications",
-            "link": "/releases/ITS-REST/latest",
+            "link": "/releases/ITS-REST/Release-1.0.2",
             "copyright_year": "2017",
-            "spec_status": "TRIAL",
+            "spec_status": "STABLE",
             "keywords": "api, rest apis, rest, restful, json, xml"
         },
         {
@@ -23,7 +23,7 @@
             "description": "openEHR Simplified Data Template (SDT)",
             "summary": "Simplified Data Template specification - a simplified data representation for committing data to the openEHR EHR.",
             "micro_summary": "Simplified Data Template",
-            "link": "/releases/ITS-REST/latest/simplified_data_template.html",
+            "link": "/releases/ITS-REST/Release-1.0.2/simplified_data_template.html",
             "copyright_year": "2019",
             "spec_status": "DEVELOPMENT",
             "keywords": "json, template, flat, rest, commit, data"
@@ -35,9 +35,21 @@
             "description": "openEHR XML Schemas (XSDs)",
             "summary": "XML Schemas (XSDs) for the openEHR BASE, RM and AM",
             "micro_summary": "XML Schemas for the openEHR BASE, RM and AM",
-            "link": "/releases/ITS-XML/latest",
+            "link": "/releases/ITS-XML/Release-1.0.2",
             "copyright_year": "2008",
             "spec_status": "STABLE",
+            "keywords": "xml schema, xml, xsd, schema, its, openehr"
+        },
+        {
+            "id": "ITS-XML v2",
+            "title": "XML Schemas (XSDs) v2",
+            "title_short": "XSDs v2",
+            "description": "openEHR XML Schemas (XSDs) v2 for openEHR components",
+            "summary": "XML Schemas (XSDs) v2",
+            "micro_summary": "XML Schemas v2 for openEHR components",
+            "link": "/releases/ITS-XML/Release-2.0.0",
+            "copyright_year": "2021",
+            "spec_status": "TRIAL",
             "keywords": "xml schema, xml, xsd, schema, its, openehr"
         },
         {
@@ -70,7 +82,7 @@
             "id": "REST API src",
             "dependency": {
                 "component": "ITS-REST",
-                "release": "latest"
+                "release": "1.0.2"
             }
         },
         {
@@ -78,6 +90,13 @@
             "dependency": {
                 "component": "ITS-XML",
                 "release": "1.0.2"
+            }
+        },
+        {
+            "id": "XSDs v2",
+            "dependency": {
+                "component": "ITS-XML",
+                "release": "2.0.0"
             }
         },
         {
@@ -94,8 +113,16 @@
     },
     "releases": [
         {
-            "id": "1.1.0",
+            "id": "2.1.0",
             "date": "",
+            "jira": {
+                "crs": "SPECITS/versions/11078",
+                "prs": "SPECPR/versions/11567"
+            }
+        },
+        {
+            "id": "2.0.0",
+            "date": "2021-05-03",
             "jira": {
                 "crs": "SPECITS/versions/11063",
                 "prs": "SPECPR/versions/11080"
