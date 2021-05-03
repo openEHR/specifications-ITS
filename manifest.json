@@ -11,7 +11,7 @@
             "description": "openEHR REST API specifications",
             "summary": "REST API specifications - a simplified data representation for committing data to the openEHR EHR.",
             "micro_summary": "openEHR REST API specifications",
-            "link": "/releases/ITS-REST/Release-1.0.2",
+            "link": "/releases/ITS-REST/latest",
             "copyright_year": "2017",
             "spec_status": "STABLE",
             "keywords": "api, rest apis, rest, restful, json, xml"
@@ -23,7 +23,7 @@
             "description": "openEHR Simplified Data Template (SDT)",
             "summary": "Simplified Data Template specification - a simplified data representation for committing data to the openEHR EHR.",
             "micro_summary": "Simplified Data Template",
-            "link": "/releases/ITS-REST/Release-1.0.2/simplified_data_template.html",
+            "link": "/releases/ITS-REST/latest/simplified_data_template.html",
             "copyright_year": "2019",
             "spec_status": "DEVELOPMENT",
             "keywords": "json, template, flat, rest, commit, data"
@@ -47,7 +47,7 @@
             "description": "openEHR XML Schemas (XSDs) v2 for openEHR components",
             "summary": "XML Schemas (XSDs) v2",
             "micro_summary": "XML Schemas v2 for openEHR components",
-            "link": "/releases/ITS-XML/Release-2.0.0",
+            "link": "/releases/ITS-XML/latest",
             "copyright_year": "2021",
             "spec_status": "TRIAL",
             "keywords": "xml schema, xml, xsd, schema, its, openehr"
